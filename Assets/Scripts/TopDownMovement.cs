@@ -21,8 +21,10 @@ public class TopDownMovement : MonoBehaviour {
         transform.position += moveDirection * speed * Time.deltaTime;
 	}
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        transform.position -= moveDirection * speed * Time.deltaTime;
-    }
+	void OnTriggerEnter2D(Collider2D collider)
+	{
+		if (collider.gameObject.tag.Equals ("Wall")) {
+			transform.position -= moveDirection * speed * Time.deltaTime;
+		}
+	}
 }

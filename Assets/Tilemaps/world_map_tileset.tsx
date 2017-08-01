@@ -40,6 +40,9 @@
   <properties>
    <property name="walkable" type="bool" value="false"/>
   </properties>
+  <objectgroup draworder="index">
+   <object id="1" x="0" y="0" width="32" height="32"/>
+  </objectgroup>
  </tile>
  <tile id="8">
   <properties>
@@ -61,7 +64,7 @@
    <property name="walkable" type="bool" value="false"/>
   </properties>
   <objectgroup draworder="index">
-   <object id="1" x="2.17391" y="2" width="27.5217" height="27"/>
+   <object id="1" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="12">
