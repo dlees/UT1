@@ -9,43 +9,47 @@ public class TopDownTileBasedMovement : MonoBehaviour {
 	public Vector3 lastPosition;
     public Vector3 positionToGetTo;
 
-	// Use this for initialization
 	void Start () {
         positionToGetTo = transform.position;
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
 		if (transform.position == positionToGetTo) {
-			lastPosition = transform.position;
 			setPositionToGetTo ();
 		}
         
-
         transform.position = Vector3.MoveTowards(transform.position, positionToGetTo, Time.deltaTime * speed);
-
 	}
 
 	void setPositionToGetTo ()
 	{
 		if (Input.GetAxis ("Vertical") > 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.up;
+			lastPosition = transform.position;
+
 		}
 		else if (Input.GetAxis ("Horizontal") > 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.right;
+			lastPosition = transform.position;
+
 		} 
 		else if (Input.GetAxis ("Horizontal") < 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.left;
+			lastPosition = transform.position;
+
 		} 
 		else if (Input.GetAxis ("Vertical") < 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.down;
+			lastPosition = transform.position;
+
 		}
 	}
 
 	void OnTriggerEnter2D(Collider2D collider)
 	{
 		if (collider.gameObject.tag.Equals ("Wall")) {
+			Debug.Log ("collide" + lastPosition);
 			positionToGetTo = lastPosition;
 		}
 	}
