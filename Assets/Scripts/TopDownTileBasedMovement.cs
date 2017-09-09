@@ -9,14 +9,22 @@ public class TopDownTileBasedMovement : MonoBehaviour {
 	public Vector3 lastPosition;
     public Vector3 positionToGetTo;
 
+    private CollisionDetector collisionDetector;
+
 	void Start () {
         positionToGetTo = transform.position;
+
+        collisionDetector = gameObject.GetComponentInChildren<CollisionDetector>();
 	}
 	
 	void Update () {
-
-		if (transform.position == positionToGetTo) {
-			setPositionToGetTo ();
+        
+        if (transform.position == positionToGetTo)
+        {
+            if (!collisionDetector.IsColliding)
+            {
+                setPositionToGetTo();
+            }
 		}
         
         transform.position = Vector3.MoveTowards(transform.position, positionToGetTo, Time.deltaTime * speed);
@@ -26,31 +34,17 @@ public class TopDownTileBasedMovement : MonoBehaviour {
 	{
 		if (Input.GetAxis ("Vertical") > 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.up;
-			lastPosition = transform.position;
-
 		}
 		else if (Input.GetAxis ("Horizontal") > 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.right;
-			lastPosition = transform.position;
-
 		} 
 		else if (Input.GetAxis ("Horizontal") < 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.left;
-			lastPosition = transform.position;
-
 		} 
 		else if (Input.GetAxis ("Vertical") < 0 && transform.position == positionToGetTo) {
 			positionToGetTo += Vector3.down;
-			lastPosition = transform.position;
-
-		}
+        }
+        lastPosition = transform.position;
 	}
 
-	void OnTriggerEnter2D(Collider2D collider)
-	{
-		if (collider.gameObject.tag.Equals ("Wall")) {
-			Debug.Log ("collide" + lastPosition);
-			positionToGetTo = lastPosition;
-		}
-	}
 }
