@@ -7,11 +7,6 @@ public class InteractionControllerDirection : MonoBehaviour {
     public DirectionController direction;
     public Transform interactorTransform;
     public Renderer sprite;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {

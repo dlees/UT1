@@ -6,10 +6,12 @@ public class TopDownTileBasedMovement : MonoBehaviour {
 
     public float speed = 4.0f;
 
-	public Vector3 lastPosition;
+	public DirectionController directionController;
+
     public Vector3 positionToGetTo;
 
     private CollisionDetector collisionDetector;
+
 
 	void Start () {
         positionToGetTo = transform.position;
@@ -32,19 +34,9 @@ public class TopDownTileBasedMovement : MonoBehaviour {
 
 	void setPositionToGetTo ()
 	{
-		if (Input.GetAxis ("Vertical") > 0 && transform.position == positionToGetTo) {
-			positionToGetTo += Vector3.up;
+		if (Input.GetAxis ("Horizontal") != 0 || Input.GetAxis ("Vertical") != 0) {
+			positionToGetTo += directionController.Direction;
 		}
-		else if (Input.GetAxis ("Horizontal") > 0 && transform.position == positionToGetTo) {
-			positionToGetTo += Vector3.right;
-		} 
-		else if (Input.GetAxis ("Horizontal") < 0 && transform.position == positionToGetTo) {
-			positionToGetTo += Vector3.left;
-		} 
-		else if (Input.GetAxis ("Vertical") < 0 && transform.position == positionToGetTo) {
-			positionToGetTo += Vector3.down;
-        }
-        lastPosition = transform.position;
 	}
 
 }
