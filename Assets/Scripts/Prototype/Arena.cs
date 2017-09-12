@@ -5,8 +5,8 @@ using UnityEngine;
 public class Arena : MonoBehaviour {
 
 	public string arenaName;
-	public int fireElementalAffinity;
-	public int windElementalAffinity;
+	public RangeValue fireElementalAffinity;
+	public RangeValue windElementalAffinity;
 
 	// Use this for initialization
 	void Start () {
