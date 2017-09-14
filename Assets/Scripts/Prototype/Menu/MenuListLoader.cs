@@ -7,15 +7,17 @@ public class MenuListLoader : MonoBehaviour {
 	public GameObject ContentPanel;
 	public GameObject ListItemPrefab;
 	public MenuListProvider menuListProvider;
-	public MenuItemSelector menuItemSelector;
+	public StringMenuItemSelector menuItemSelector;
 
-	public void loadMenu () {
+    public void loadMenu() {
+        loadMenu(menuListProvider.getItems());
+    }
+    
+	public void loadMenu (List<string> listItems) {
 		foreach (Transform child in ContentPanel.transform)
 		{
 			GameObject.Destroy(child.gameObject);
 		}
-
-		List<string> listItems = menuListProvider.getItems();
 
 		foreach (string itemString in listItems) {
 			GameObject newListItem = Instantiate(ListItemPrefab) as GameObject;
@@ -23,6 +25,7 @@ public class MenuListLoader : MonoBehaviour {
 			MenuItemController menuItemController = newListItem.GetComponent<MenuItemController>();
 			menuItemController.itemName = itemString;
 			menuItemController.selector = menuItemSelector;
+            menuItemSelector.selectedString = null;
 
 			newListItem.transform.SetParent (ContentPanel.transform);
 			newListItem.transform.localScale = Vector3.one;

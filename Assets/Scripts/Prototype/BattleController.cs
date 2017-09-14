@@ -6,7 +6,8 @@ public class BattleController : MonoBehaviour {
 
 	public List<Faction> factions;
 
-	private Queue<Ability> abilityQueue;
+    private Queue<Ability> abilityQueue;
+    private List<Ability> abilitiesInTurn;
 	private Queue<Combatant> selectorQueue;
 
 	private string state = "setupTurn";
@@ -16,9 +17,8 @@ public class BattleController : MonoBehaviour {
 	/// </summary>
 	private Combatant currentCombatantSelection = null;
 
-	// Use this for initialization
 	void Start () {
-		abilityQueue = new Queue<Ability>();
+        abilityQueue = new Queue<Ability>();
 		selectorQueue = new Queue<Combatant> ();
 	}
 	
@@ -27,45 +27,62 @@ public class BattleController : MonoBehaviour {
 		
 
 		switch (state) {
-		case "setupTurn":
-			foreach (Faction faction in factions) {
-				foreach (Combatant combatant in faction.combatants) {
-					selectorQueue.Enqueue (combatant);
-				}
-			}
-			state = "choose";
-			break;
+		    case "setupTurn":
+			    foreach (Faction faction in factions) {
+				    foreach (Combatant combatant in faction.combatants) {
+					    selectorQueue.Enqueue (combatant);
+				    }
+			    }
+                abilitiesInTurn = new List<Ability>();
+			    state = "choose";
+			    break;
 
-		case "choose":
-			if (selectorQueue.Count > 0) {
-				currentCombatantSelection = selectorQueue.Dequeue ();
-				state = "waitForSelection";
+		    case "choose":
+			    if (selectorQueue.Count > 0) {
+				    currentCombatantSelection = selectorQueue.Dequeue ();
+				    state = "waitForSelection";
 
-			} else {
-				state = "act";
-			}
+			    } else {
+				    state = "calculateTurn";
+			    }
 
-			break;
+			    break;
 
-		case "waitForSelection":
+		    case "waitForSelection":
 
-			Ability selectedAbility = currentCombatantSelection.abilitySelector.selectAbility (currentCombatantSelection);
+			    Ability selectedAbility = currentCombatantSelection.abilitySelector.selectAbility (currentCombatantSelection);
 
-			if (selectedAbility != null) {
-				abilityQueue.Enqueue (selectedAbility);
-				state = "choose";
-			}
+			    if (selectedAbility != null) {
+				    abilitiesInTurn.Add(selectedAbility);
+				    state = "choose";
+			    }
 
-			break;
+			    break;
 
+            case "calculateTurn":
 
-		case "act":
-			while (abilityQueue.Count > 0) {
-				abilityQueue.Dequeue ().perform ();
-			
-			}
-			state = "setupTurn";
-			break;
+                foreach (Ability ability in abilitiesInTurn)
+                {
+                    // can 4 people skill chain at once?
+                    // can enemies skill chain with allies?
+                    // for now let's keep it simple with just elements
+
+                    abilityQueue.Enqueue(ability);
+                }
+
+                state = "act";
+                break;
+
+		    case "act":
+			    while (abilityQueue.Count > 0) {
+
+				    Ability ability = abilityQueue.Dequeue ();
+                    
+                    ability.perform ();
+
+			    }
+			    state = "setupTurn";
+			    break;
 		}
 
 	}

@@ -11,7 +11,7 @@ public class PlayerAbilitySelector : AbilitySelector {
 	public Faction enemies;
 
 	public MenuListLoader menuListLoader;
-	public MenuItemSelector menuItemSelector;
+	public StringMenuItemSelector menuItemSelector;
 	public MenuListProvider menuListProvider;
 
 	public Text menuTitleText;
@@ -23,29 +23,54 @@ public class PlayerAbilitySelector : AbilitySelector {
 
 	public override Ability selectAbility (Combatant performer) {
 		switch (state) {
-		case "start":
-			selectedAbility = null;
+		    case "start":
+			    selectedAbility = null;
 
-			menuTitleText.text = performer.CombatantName;
+			    menuTitleText.text = performer.CombatantName;
 
-			menuListLoader.menuListProvider = menuListProvider;
-			menuListLoader.menuItemSelector = menuItemSelector;
-			menuListLoader.loadMenu ();
+			    menuListLoader.menuListProvider = menuListProvider;
+			    menuListLoader.menuItemSelector = menuItemSelector;
+			    menuListLoader.loadMenu ();
 
-			state = "waiting";
-			return null;
+                state = "waitingForAbility";
+                break;
 
 
-		case "waiting":
-			if (selectedAbility != null) {
-				state = "start";
-				return abilityFactory.createAbility (selectedAbility, performer, enemies.combatants);
-			}
-			return null;
+		    case "waitingForAbility":
+                if (menuItemSelector.selectedString != null)
+                {
+                    selectedAbility = menuItemSelector.selectedString;
+                    
+                    List<string> enemyNames = new List<string>();
+                    foreach (Combatant enemy in enemies.combatants)
+                    {
+                        enemyNames.Add(enemy.CombatantName);
+                    }
 
-		default:
-			return null;
-		}
+                    menuListLoader.loadMenu(enemyNames);
+
+                    state = "waitingForTarget";
+                }
+                break;
+
+           case "waitingForTarget" :
+                if (menuItemSelector.selectedString != null)
+                {
+                    string selectedTarget = menuItemSelector.selectedString;
+
+                    List<Combatant> selectedTargets = new List<Combatant>();
+
+                    selectedTargets.Add(enemies.nameToCombatant[selectedTarget]);
+
+				    state = "start";
+				    return abilityFactory.createAbility (selectedAbility, performer, selectedTargets);
+			    }
+                break;
+
+		    default:
+                break;
+        }
+        return null;
 	}
 
 }

@@ -4,4 +4,15 @@ using UnityEngine;
 
 public class Faction : MonoBehaviour {
 	public List<Combatant> combatants;
+
+    public Dictionary<string, Combatant> nameToCombatant;
+
+    void Start()
+    {
+        nameToCombatant = new Dictionary<string, Combatant>();
+        foreach (Combatant combatant in combatants)
+        {
+            nameToCombatant.Add(combatant.CombatantName, combatant);
+        }
+    }
 }
