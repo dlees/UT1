@@ -16,6 +16,7 @@ public class PlayerAbilitySelector : AbilitySelector {
 
 	public Text menuTitleText;
 
+    private Faction selectedFaction;
 
 
 	public string selectedAbility;
@@ -45,17 +46,21 @@ public class PlayerAbilitySelector : AbilitySelector {
                     // Cure defaults to party (but can switch to enemy)
                     // ALL isn't for all abilities
 
-                    List<string> enemyNames = new List<string>();
-                    foreach (Combatant enemy in enemies.combatants) {
-                        enemyNames.Add(enemy.CombatantName);
-                    }
-
-                    enemyNames.Add("ALL");
-
-                    menuListLoader.loadMenu(enemyNames);
+                    loadMenuWithTargets(enemies, "Enemies");
 
                     state = "waitingForTarget";
                 }
+                break;
+
+            case "selectAlly":
+
+                    // TODO: The combatants we load need to be based off the ability. 
+                    // Cure defaults to party (but can switch to enemy)
+                    // ALL isn't for all abilities
+
+                    loadMenuWithTargets(allies, "Allies");
+
+                    state = "waitingForTarget";
                 break;
 
            case "waitingForTarget" :
@@ -64,14 +69,28 @@ public class PlayerAbilitySelector : AbilitySelector {
 
                     List<Combatant> selectedTargets = new List<Combatant>();
 
-                    if (selectedTarget.Equals("ALL"))  {
-                        selectedTargets = enemies.combatants;
-                    } else {
-                        selectedTargets.Add(enemies.nameToCombatant[selectedTarget]);
+                    switch (selectedTarget) {
+
+                        case "Ally":
+                            state = "selectAlly";
+                            break;
+
+                        case "ALL Enemies":
+                            selectedTargets = enemies.combatants;
+				            state = "start";
+				            return abilityFactory.createAbility (selectedAbility, performer, selectedTargets);
+
+                        case "ALL Allies":
+                            selectedTargets = allies.combatants;
+				            state = "start";
+				            return abilityFactory.createAbility (selectedAbility, performer, selectedTargets);
+
+                        default:
+                            selectedTargets.Add(selectedFaction.nameToCombatant[selectedTarget]);
+				            state = "start";
+				            return abilityFactory.createAbility (selectedAbility, performer, selectedTargets);                            
                     }
 
-				    state = "start";
-				    return abilityFactory.createAbility (selectedAbility, performer, selectedTargets);
 			    }
                 break;
 
@@ -80,5 +99,21 @@ public class PlayerAbilitySelector : AbilitySelector {
         }
         return null;
 	}
+
+    private void loadMenuWithTargets(Faction faction, string factionName) {
+        List<string> names = new List<string>();
+        foreach (Combatant enemy in faction.combatants) {
+            names.Add(enemy.CombatantName);
+        }
+
+        names.Add("ALL " + factionName);
+
+        // TOOD: UH ho, why are we putting this in all factions?
+        names.Add("Ally");
+        
+        menuListLoader.loadMenu(names);
+
+        selectedFaction = faction;
+    }
 
 }

@@ -27,6 +27,8 @@ public class AbilityFactory : MonoBehaviour {
                 return new ElementalMagicAbility(performer, targets, arena, 5, 1, -1, getMultiplier(targets, 1), "Lava");
             case "Ice":
                 return new ElementalMagicAbility(performer, targets, arena, 5, -1, 1, getMultiplier(targets, 1), "Ice");
+            case "Cure":
+                return new CureAbility(performer, targets, 5, getMultiplier(targets, 1), "Cure");
 		}
 	
 		throw new UnityException (name + " is not an ability.");
