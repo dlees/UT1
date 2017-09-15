@@ -80,10 +80,44 @@ public class BattleController : MonoBehaviour {
                     
                     ability.perform ();
 
+                    if (isBattleLost()) {
+                        state = "battleLost";
+                        return;
+                    }
+                    if (isBattleWon()) {
+                        state = "battleWon";
+                        return;
+                    }
+
 			    }
 			    state = "setupTurn";
 			    break;
-		}
 
+            case "battleLost":
+                Debug.Log("Battle Lost!");
+                break;
+
+            case "battleWon":
+                Debug.Log("Battle Won!");
+                break;
+		}
 	}
+
+    public bool isBattleLost() {
+        foreach (Combatant combatant in factions[0].combatants) {
+            if (combatant.stats.curHP.current != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public bool isBattleWon() {
+        foreach (Combatant combatant in factions[1].combatants) {
+            if (combatant.stats.curHP.current != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
