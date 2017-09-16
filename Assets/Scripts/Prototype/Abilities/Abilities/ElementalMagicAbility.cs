@@ -50,5 +50,4 @@ public class ElementalMagicAbility : Ability {
         arena.windElementalAffinity.current += windAffinityIncrement;
 
 	}
-
 }

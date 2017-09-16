@@ -10,8 +10,23 @@ public class AIAbilitySelector : AbilitySelector {
 
 	public override Ability selectAbility (Combatant performer) {
 
-		return abilityFactory.createAbility ("Attack", performer, enemies.combatants);
-	}
+        List<Combatant> chosenTargets = new List<Combatant>();
 
+        List<Combatant> possibleTargets = new List<Combatant>();
+
+        // TODO: we could pull this out into a filter and
+        // Add the filter to the ability.
+        foreach (Combatant target in enemies.combatants) {
+            if (target.stats.curHP.current > 0) {
+                possibleTargets.Add(target);
+            }
+        }
+
+        int chosenCombatant = Random.Range(0, possibleTargets.Count);
+
+        chosenTargets.Add(possibleTargets[chosenCombatant]);
+
+		return abilityFactory.createAbility ("Attack", performer, chosenTargets);
+	}
 }
 
