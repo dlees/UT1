@@ -30,7 +30,9 @@ public class BattleController : MonoBehaviour {
 		    case "setupTurn":
 			    foreach (Faction faction in factions) {
 				    foreach (Combatant combatant in faction.combatants) {
-					    selectorQueue.Enqueue (combatant);
+						if (combatantCanTakeTurn(combatant)) {
+							selectorQueue.Enqueue (combatant);
+						}
 				    }
 			    }
                 abilitiesInTurn = new List<Ability>();
@@ -120,4 +122,9 @@ public class BattleController : MonoBehaviour {
         }
         return true;
     }
+
+	public bool combatantCanTakeTurn(Combatant combatant) {
+		return combatant.stats.hp.current > 0;
+	}
+
 }

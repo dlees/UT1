@@ -13,10 +13,20 @@ public class AttackAbility : Ability {
 	}
 
 	public override void perform() {
+		if (!isAbilityPerformable()) {
+			return;
+		}
+
 		int damage = performer.stats.str;
 
 		target.stats.hp.current -= damage;
 		Debug.Log(performer.name + " attacks " + target.name + " for damage " + damage);
+	}
+
+	private bool isAbilityPerformable() {
+	
+		return performer.stats.hp.current > 0;
+	
 	}
 
 }

@@ -30,11 +30,17 @@ public class ElementalMagicAbility : Ability {
 	}
 
 	public override void perform() {
-        if (performer.stats.mp.current < mpCost)
-        {
-            Debug.Log("Not enough MP!");
-            return;
-        }
+
+		// TODO: Find a way to get the error message shown without duping code.
+		if (performer.stats.mp.current < mpCost)
+		{
+			Debug.Log("Not enough MP!");
+		}
+
+		if (!isAbilityPerformable()) {
+			return;
+		}
+
         performer.stats.mp.current -= mpCost;
 
         foreach (Combatant target in targets) {
@@ -48,6 +54,11 @@ public class ElementalMagicAbility : Ability {
 
         arena.fireElementalAffinity.current += fireAffinityIncrement;
         arena.windElementalAffinity.current += windAffinityIncrement;
+
+	}
+
+	private bool isAbilityPerformable() {
+		return performer.stats.hp.current > 0 && performer.stats.mp.current >= mpCost;
 
 	}
 }
