@@ -22,17 +22,17 @@ public class CureAbility : Ability {
 	}
 
 	public override void perform() {
-        if (performer.stats.curMP.current < mpCost)
+        if (performer.stats.mp.current < mpCost)
         {
             Debug.Log("Not enough MP!");
             return;
         }
-        performer.stats.curMP.current -= mpCost;
+        performer.stats.mp.current -= mpCost;
 
         foreach (Combatant target in targets) {
             float healAmount = multiplier * performer.stats.mag;
 
-            target.stats.curHP.current += (int) healAmount;
+            target.stats.hp.current += (int) healAmount;
             
             Debug.Log(performer.name + " casts " + name + " on " + target.name + " for " + healAmount);
         }

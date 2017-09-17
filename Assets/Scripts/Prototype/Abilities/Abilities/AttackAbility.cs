@@ -15,7 +15,7 @@ public class AttackAbility : Ability {
 	public override void perform() {
 		int damage = performer.stats.str;
 
-		target.stats.curHP.current -= damage;
+		target.stats.hp.current -= damage;
 		Debug.Log(performer.name + " attacks " + target.name + " for damage " + damage);
 	}
 

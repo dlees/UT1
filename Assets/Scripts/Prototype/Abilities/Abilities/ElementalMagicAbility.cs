@@ -30,19 +30,19 @@ public class ElementalMagicAbility : Ability {
 	}
 
 	public override void perform() {
-        if (performer.stats.curMP.current < mpCost)
+        if (performer.stats.mp.current < mpCost)
         {
             Debug.Log("Not enough MP!");
             return;
         }
-        performer.stats.curMP.current -= mpCost;
+        performer.stats.mp.current -= mpCost;
 
         foreach (Combatant target in targets) {
             float damage = multiplier * performer.stats.mag +
                  fireAffinityIncrement * (int)arena.fireElementalAffinity.current +
                  windAffinityIncrement * (int)arena.windElementalAffinity.current;
 
-            target.stats.curHP.current -= (int) damage;
+            target.stats.hp.current -= (int) damage;
             Debug.Log(performer.name + " casts " + name + " on " + target.name + " for damage " + damage);
         }
 

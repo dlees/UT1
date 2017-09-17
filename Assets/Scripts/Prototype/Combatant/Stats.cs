@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour {
 
-	public int maxHP;
-	public RangeValue curHP;
-	public int maxMP;
-	public RangeValue curMP;
+	public RangeValue hp;
+	public RangeValue mp;
 	public int str;
 	public int mag;
 	public int def;

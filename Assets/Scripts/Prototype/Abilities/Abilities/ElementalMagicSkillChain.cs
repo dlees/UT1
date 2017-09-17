@@ -28,7 +28,7 @@ public class ElementalMagicSkillChain : Ability {
             fireAffinity * (int) arena.fireElementalAffinity.current + 
             windAffinity * (int) arena.windElementalAffinity.current;
         
-		target.stats.curHP.current -= damage;
+		target.stats.hp.current -= damage;
 
         arena.fireElementalAffinity.current += fireAffinity;
         arena.windElementalAffinity.current += windAffinity;
