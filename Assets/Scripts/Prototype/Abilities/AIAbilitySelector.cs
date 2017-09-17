@@ -17,7 +17,8 @@ public class AIAbilitySelector : AbilitySelector {
         // TODO: we could pull this out into a filter and
         // Add the filter to the ability.
         foreach (Combatant target in enemies.combatants) {
-            if (target.stats.hp.current > 0) {
+			
+			if (abilityFactory.getTargetableConditionsForAbility("Attack").isValid(target)) {
                 possibleTargets.Add(target);
             }
         }

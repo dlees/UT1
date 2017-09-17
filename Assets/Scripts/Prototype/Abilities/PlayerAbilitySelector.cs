@@ -102,9 +102,11 @@ public class PlayerAbilitySelector : AbilitySelector {
 
     private void loadMenuWithTargets(Faction faction, string factionName) {
         List<string> names = new List<string>();
-        foreach (Combatant enemy in faction.combatants) {
-            names.Add(enemy.CombatantName);
-        }
+		foreach (Combatant target in faction.combatants) {
+			if (abilityFactory.getTargetableConditionsForAbility (selectedAbility).isValid(target)) {
+				names.Add (target.CombatantName);
+			}
+		}
 
         names.Add("ALL " + factionName);
 
