@@ -11,8 +11,9 @@ public class Stats : MonoBehaviour {
 	public int def;
 	public int magdef;
 	public int agl;
+    public RangeValue rangeValueTemplate;
 
-	private Dictionary<string, RangeValue> statNameToValueMap;
+	private Dictionary<string, RangeValue> statNameToValueMap = new Dictionary<string,RangeValue>();
 
 	void Start() {
 		statNameToValueMap ["hp"] = hp;
@@ -26,7 +27,7 @@ public class Stats : MonoBehaviour {
 
 
 	public RangeValue createRangeValue(int startingValue) {
-		RangeValue rangeValue = GameObject.Instantiate (hp);
+        RangeValue rangeValue = GameObject.Instantiate(rangeValueTemplate);
 		rangeValue.max = 255;
 		rangeValue.current = startingValue;
 		return rangeValue;
