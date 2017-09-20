@@ -5,9 +5,9 @@ using UnityEngine;
 public class ElementalMagicAbility : Ability {
 
     private int mpCost ;
-    private int fireAffinityIncrement;
-    private int windAffinityIncrement;
- 
+    public int fireAffinityIncrement;
+    public int windAffinityIncrement;
+
     //formula maybe?
 
 	private Combatant performer;
@@ -61,4 +61,22 @@ public class ElementalMagicAbility : Ability {
 		return performer.stats.hp.current > 0 && performer.stats.mp.current >= mpCost;
 
 	}
+
+    public override Ability getSkillChain(Ability ability) {
+        if (ability.GetType() == typeof(ElementalMagicAbility)) {
+            ElementalMagicAbility ability2 = (ElementalMagicAbility) ability;
+
+
+            if (fireAffinityIncrement + ability2.fireAffinityIncrement > 0 && windAffinityIncrement + ability2.windAffinityIncrement > 0) {
+                return AbilityFactory.createSkillChain("Lightning", arena, targets);
+            } else if (fireAffinityIncrement + ability2.fireAffinityIncrement < 0 && windAffinityIncrement + ability2.windAffinityIncrement > 0) {
+                return AbilityFactory.createSkillChain("Ice", arena, targets);
+            } else if (fireAffinityIncrement + ability2.fireAffinityIncrement < 0 && windAffinityIncrement + ability2.windAffinityIncrement < 0) {
+                return AbilityFactory.createSkillChain("Wood", arena, targets);
+            } else if (fireAffinityIncrement + ability2.fireAffinityIncrement > 0 && windAffinityIncrement + ability2.windAffinityIncrement < 0) {
+                return AbilityFactory.createSkillChain("Lava", arena, targets);
+            }
+        }
+        return null;
+    }
 }

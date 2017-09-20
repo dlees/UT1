@@ -76,11 +76,23 @@ public class BattleController : MonoBehaviour {
                 break;
 
 		    case "act":
+
+                Ability lastAbility = null;
 			    while (abilityQueue.Count > 0) {
 
 				    Ability ability = abilityQueue.Dequeue ();
                     
                     ability.perform ();
+
+                    if (lastAbility != null) {
+                        Debug.Log("CheckSkillchain");
+                        Ability skillChain = ability.getSkillChain(lastAbility);
+                        if (skillChain != null) {
+                            skillChain.perform();
+                        }
+                    }
+
+                    lastAbility = ability;
 
                     if (isBattleLost()) {
                         state = "battleLost";

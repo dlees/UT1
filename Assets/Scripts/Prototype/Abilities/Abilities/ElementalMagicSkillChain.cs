@@ -9,14 +9,13 @@ public class ElementalMagicSkillChain : Ability {
  
     //formula maybe?
 
-	private Combatant target;
+    private List<Combatant> targets;
     private Arena arena;
 
     private string name;
 
-    public ElementalMagicSkillChain(Combatant target, Arena arena, int fireAffinity, int windAffinity, string name)
-    {
-		this.target = target;
+    public ElementalMagicSkillChain(List<Combatant> targets, Arena arena, int fireAffinity, int windAffinity, string name) {
+        this.targets = targets;
         this.arena = arena;
         this.fireAffinity = fireAffinity;
         this.windAffinity = windAffinity;
@@ -24,16 +23,16 @@ public class ElementalMagicSkillChain : Ability {
 	}
 
 	public override void perform() {
-        int damage = 
-            fireAffinity * (int) arena.fireElementalAffinity.current + 
-            windAffinity * (int) arena.windElementalAffinity.current;
-        
-		target.stats.hp.current -= damage;
 
-        arena.fireElementalAffinity.current += fireAffinity;
-        arena.windElementalAffinity.current += windAffinity;
+        foreach (Combatant target in targets) {
+            float damage = 2 +
+                 fireAffinity * (int)arena.fireElementalAffinity.current +
+                 windAffinity * (int)arena.windElementalAffinity.current;
 
-		Debug.Log("The environment spawns " + name + " on " + target.name + " for damage " + damage);
+            target.stats.hp.current -= (int)damage;
+
+            Debug.Log("The environment spawns " + name + " on " + target.name + " for damage " + damage);
+        }
 	}
 
 }

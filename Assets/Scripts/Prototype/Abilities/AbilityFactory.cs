@@ -66,6 +66,23 @@ public class AbilityFactory : MonoBehaviour {
 		throw new UnityException (name + " is not an ability.");
 	}
 
+    public static  Ability createSkillChain(string name, Arena arena, List<Combatant> targets) {
+
+        switch (name) {
+            case "Lightning":
+                return new ElementalMagicSkillChain(targets, arena, 1, 1, "Lightning");
+            case "Wood":
+                return new ElementalMagicSkillChain(targets, arena, -1, -1, "Wood");
+            case "Lava":
+                return new ElementalMagicSkillChain(targets, arena, 1, -1,  "Lava");
+            case "Ice":
+                return new ElementalMagicSkillChain(targets, arena, -1, 1,  "Ice");
+            
+        }
+
+        throw new UnityException(name + " is not an ability.");
+    }
+
     private float getMultiplier(List<Combatant> targets, int level) {
         if (targets.Count == 1) {
             return 1.0f;

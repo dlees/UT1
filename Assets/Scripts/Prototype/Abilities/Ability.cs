@@ -6,4 +6,6 @@ public abstract class Ability {
 
 	public abstract void perform();
 
+    public virtual Ability getSkillChain(Ability ability) { return null; }
+
 }
