@@ -6,7 +6,7 @@ public class Faction : MonoBehaviour {
 	public List<Combatant> combatants;
 
     public Dictionary<string, Combatant> nameToCombatant;
-
+    public NonMonoStats stats;
     void Start()
     {
         nameToCombatant = new Dictionary<string, Combatant>();
