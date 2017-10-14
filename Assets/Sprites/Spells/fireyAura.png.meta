@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 167655dc2c86bcf4ca64258cdf51b765
+timeCreated: 1508006166
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fireyAura_0
+    21300002: fireyAura_1
+    21300004: fireyAura_2
+    21300006: fireyAura_3
+    21300008: fireyAura_4
+    21300010: fireyAura_5
+    21300012: fireyAura_6
+    21300014: fireyAura_7
+    21300016: fireyAura_8
+    21300018: fireyAura_9
+    21300020: fireyAura_10
+    21300022: fireyAura_11
+    21300024: fireyAura_12
+    21300026: fireyAura_13
+    21300028: fireyAura_14
+    21300030: fireyAura_15
+    21300032: fireyAura_16
+    21300034: fireyAura_17
+    21300036: fireyAura_18
+    21300038: fireyAura_19
+    21300040: fireyAura_20
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireyAura_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1097.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1097.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1097.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 915.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 915.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 733.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_7
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 733.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_8
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 733.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 551.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 551.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 551.1428
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369.14285
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 369.14285
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_14
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 369.14285
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187.14285
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 187.14285
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 187.14285
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5.142853
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_19
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 5.142853
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fireyAura_20
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 5.142853
+        width: 221
+        height: 182.85715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
