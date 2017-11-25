@@ -12,7 +12,6 @@ public class TopDownTileBasedMovement : MonoBehaviour {
 
     private CollisionDetector collisionDetector;
 
-
 	void Start () {
         positionToGetTo = transform.position;
 
