@@ -1,0 +1,2235 @@
+fileFormatVersion: 2
+guid: 54c434a309f5ac64ba03b1493bb06352
+timeCreated: 1511761956
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bomb_0
+    21300002: bomb_1
+    21300004: bomb_2
+    21300006: bomb_3
+    21300008: bomb_4
+    21300010: bomb_5
+    21300012: bomb_6
+    21300014: bomb_7
+    21300016: bomb_8
+    21300018: bomb_9
+    21300020: bomb_10
+    21300022: bomb_11
+    21300024: bomb_12
+    21300026: bomb_13
+    21300028: bomb_14
+    21300030: bomb_15
+    21300032: bomb_16
+    21300034: bomb_17
+    21300036: bomb_18
+    21300038: bomb_19
+    21300040: bomb_20
+    21300042: bomb_21
+    21300044: bomb_22
+    21300046: bomb_23
+    21300048: bomb_24
+    21300050: bomb_25
+    21300052: bomb_26
+    21300054: bomb_27
+    21300056: bomb_28
+    21300058: bomb_29
+    21300060: bomb_30
+    21300062: bomb_31
+    21300064: bomb_32
+    21300066: bomb_33
+    21300068: bomb_34
+    21300070: bomb_35
+    21300072: bomb_36
+    21300074: bomb_37
+    21300076: bomb_38
+    21300078: bomb_39
+    21300080: bomb_40
+    21300082: bomb_41
+    21300084: bomb_42
+    21300086: bomb_43
+    21300088: bomb_44
+    21300090: bomb_45
+    21300092: bomb_46
+    21300094: bomb_47
+    21300096: bomb_48
+    21300098: bomb_49
+    21300100: bomb_50
+    21300102: bomb_51
+    21300104: bomb_52
+    21300106: bomb_53
+    21300108: bomb_54
+    21300110: bomb_55
+    21300112: bomb_56
+    21300114: bomb_57
+    21300116: bomb_58
+    21300118: bomb_59
+    21300120: bomb_60
+    21300122: bomb_61
+    21300124: bomb_62
+    21300126: bomb_63
+    21300128: bomb_64
+    21300130: bomb_65
+    21300132: bomb_66
+    21300134: bomb_67
+    21300136: bomb_68
+    21300138: bomb_69
+    21300140: bomb_70
+    21300142: bomb_71
+    21300144: bomb_72
+    21300146: bomb_73
+    21300148: bomb_74
+    21300150: bomb_75
+    21300152: bomb_76
+    21300154: bomb_77
+    21300156: bomb_78
+    21300158: bomb_79
+    21300160: bomb_80
+    21300162: bomb_81
+    21300164: bomb_82
+    21300166: bomb_83
+    21300168: bomb_84
+    21300170: bomb_85
+    21300172: bomb_86
+    21300174: bomb_87
+    21300176: bomb_88
+    21300178: bomb_89
+    21300180: bomb_90
+    21300182: bomb_91
+    21300184: bomb_92
+    21300186: bomb_93
+    21300188: bomb_94
+    21300190: bomb_95
+    21300192: bomb_96
+    21300194: bomb_97
+    21300196: bomb_98
+    21300198: bomb_99
+    21300200: bomb_100
+    21300202: bomb_101
+    21300204: bomb_102
+    21300206: bomb_103
+    21300208: bomb_104
+    21300210: bomb_105
+    21300212: bomb_106
+    21300214: bomb_107
+    21300216: bomb_108
+    21300218: bomb_109
+    21300220: bomb_110
+    21300222: bomb_111
+    21300224: bomb_112
+    21300226: bomb_113
+    21300228: bomb_114
+    21300230: bomb_115
+    21300232: bomb_116
+    21300234: bomb_117
+    21300236: bomb_118
+    21300238: bomb_119
+    21300240: bomb_120
+    21300242: bomb_121
+    21300244: bomb_122
+    21300246: bomb_123
+    21300248: bomb_124
+    21300250: bomb_125
+    21300252: bomb_126
+    21300254: bomb_127
+    21300256: bomb_128
+    21300258: bomb_129
+    21300260: bomb_130
+    21300262: bomb_131
+    21300264: bomb_132
+    21300266: bomb_133
+    21300268: bomb_134
+    21300270: bomb_135
+    21300272: bomb_136
+    21300274: bomb_137
+    21300276: bomb_138
+    21300278: bomb_139
+    21300280: bomb_140
+    21300282: bomb_141
+    21300284: bomb_142
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 559.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 513.38464
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_29
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_30
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 467.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_34
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_35
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_36
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_37
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_38
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_40
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_41
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_42
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_43
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 421.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_48
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_50
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_51
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_52
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_53
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_54
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 375.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_56
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_57
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_59
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_60
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_61
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_62
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_63
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_64
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_65
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 329.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_67
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_68
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_69
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_70
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_71
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_72
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_73
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_74
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_75
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_76
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 283.3846
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_78
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_79
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_80
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_81
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_82
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_83
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_84
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_85
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_86
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_87
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 237.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_89
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_90
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_92
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_93
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_95
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_96
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_97
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_98
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 191.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_100
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_101
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_102
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_103
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_104
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_105
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_106
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_107
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_108
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_109
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 145.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_111
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_112
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_113
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_114
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_115
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_116
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_117
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_118
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_119
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_120
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 99.38461
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_122
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_123
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_124
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_125
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_126
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_127
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_128
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_129
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_130
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_131
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 53.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_133
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_134
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_135
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_136
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_137
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_138
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_139
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_140
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_141
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb_142
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 7.384617
+        width: 46.545456
+        height: 46.615383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
